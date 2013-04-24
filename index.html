@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bills With Friends</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <section id="app" class="container">
+      <header id="header" class="navbar navbar-static-top">
+        <h1>Bills With Friends</h1>
+        <div id="header-controls">
+          <button class="btn reset-button">reset</button>
+        </div>
+      </header>
+        <section class="well" id="add-person">
+          <input type="text" id="add-person-name" class="add-person-name input-block-level"/>
+          <button class="btn btn-primary btn-block btn-large" id="add-person-btn">Add Person</button>
+        </section>
+      <section id="main">
+        <ul id="receipt">
+        </ul>
+      </section>
+      <section id="totals" style="">
+        <h3 id="totals-header">Totals:</h3>
+        <div class="person-totals">
+        </div>
+        <div class="total-total">
+          <div class="item-name item">TOTAL: </div>
+          <div class="item price"></div>
+        </div>
+      </section>
+    </section>
+    <script data-main="app/js/main" src="components/requirejs/require.js"></script>
+  </body>
+</html>

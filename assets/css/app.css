@@ -1,0 +1,105 @@
+#main {
+
+}
+ul, ol {
+  margin-left: 0;
+  list-style: none;
+}
+select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"], input[type="date"],
+  input[type="month"], input[type="time"], input[type="week"],
+  input[type="number"], input[type="email"], input[type="url"],
+  input[type="search"], input[type="tel"], input[type="color"] {
+}
+header {
+  text-align:center;
+  background: #ddd;
+  position:relative;
+  padding: 5px;
+  background: #4d90fe;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight:200;
+  color: #fff;
+}
+header .reset-button {
+  position:absolute;
+  right: 10px;
+  top: 6px;
+}
+
+#add-person {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  margin: 0 -20px;
+}
+.person {
+  margin: 20px 0;
+}
+.person-name {
+  padding-left: 5px;
+  font-weight: 200;
+  text-align:left;
+  border-bottom: 1px solid #888;
+  margin-bottom: 0;
+  display:block;
+}
+.item-list input {
+  /*box-sizing: border-box;*/
+  /*display:block;*/
+  /*line-height: 24px;*/
+  /*height: 24px;*/
+}
+.item {
+  padding: 5px 0;
+  border-bottom: 1px dotted #ccc;
+  font-size: 16px;
+  line-height: 24px;
+}
+.add-item {
+}
+.item-name {
+  float: left;
+  width: 75%;
+}
+.price {
+  text-align: right;
+  float:right;
+  width: 20%;
+}
+.btm-label {
+  float:right;
+  width: 20%;
+  text-align:left;
+  font-size: 12px;
+  text-transform:uppercase;
+}
+.add-item input{
+  /*box-sizing: border-box;*/
+  /*display:block;*/
+  /*height: 36px;*/
+  /*padding: 0 5px;*/
+}
+.add-item .item-name {
+  /*width: 60%;*/
+}
+.add-item .item-price {
+  /*width: 20%;*/
+  /*margin-left: 2%;*/
+}
+.add-item-btn {
+  margin-top: 5px;
+  float:right;
+  width: 16%;
+  margin-left: 2%;
+}
+.receipt-bottom {
+  margin-bottom: 20px;
+}
+#totals-header {
+  margin-top: 30px;
+  border-bottom: 1px solid #888;
+}

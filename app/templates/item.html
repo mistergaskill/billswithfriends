@@ -1,0 +1,12 @@
+<div class="item" data-item-id="<%= id %>" data-has-multiple-owners="<%=
+  hasMultipleOwners %>">
+  <div class="edit-item form-inline" style="display:none">
+    <input type="text" class="item-name" value="<%= name %>" />
+    <input type="number" class="price item-price" value="<%= price %>" />
+  </div>
+  <div class="view-item">
+    <div class="item-name"><%= name %></div>
+    <div class="price price-to-pay item-price"><%= priceToPay %></div>
+  </div>
+  <div class="clearfix"></div>
+</div>

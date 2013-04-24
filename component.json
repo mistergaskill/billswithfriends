@@ -1,0 +1,11 @@
+{
+  "name": "BillCalc",
+  "version": ".1",
+  "dependencies": {
+    "flight": "~1.0.0",
+    "depot": "~0.1.4",
+    "requirejs": "~2.1.5",
+    "requirejs-text": null,
+    "is-js": null
+  }
+}
